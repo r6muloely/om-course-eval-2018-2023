@@ -1,0 +1,7 @@
+section_id,year,term,clarity_norm,fairness_norm,sentiment_mean,effectiveness_score,pos,neu,neg,n_comments,interpretation
+F2023-28,2023,Fall,0.732,0.74,0.025,0.592,6,8,5,19,"Lower effectiveness driven by lower clarity, lower fairness."
+S2019-largeclass,2019,Spring,0.68,0.67,0.163,0.626,266,235,91,592,"Lower effectiveness driven by lower clarity, lower fairness."
+F2023-25,2023,Fall,0.75,0.822,0.086,0.761,5,13,0,18,High effectiveness: strong clarity/fairness and positive sentiment.
+F2021-90,2021,Fall,0.857,0.875,0.285,0.784,33,21,5,59,High effectiveness: strong clarity/fairness and positive sentiment.
+F2018-20,2018,Fall,0.867,0.888,0.302,0.785,66,30,8,104,High effectiveness: strong clarity/fairness and positive sentiment.
+F2022-20,2022,Fall,0.792,0.835,0.345,0.79,30,15,4,49,High effectiveness: strong clarity/fairness and positive sentiment.

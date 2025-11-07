@@ -1,0 +1,38 @@
+# Configurable column names and parameters
+data:
+  sirs_quant: data/raw/sirs_quant.csv
+  comments: data/raw/comments.csv
+  grades: data/raw/grades.csv
+
+columns:
+  section: section_id
+  year: year
+  term: term
+  comment_text: comment_text
+  clarity: clarity
+  fairness: fairness
+  overall: overall
+
+scales:
+  sirs_min: 1.0
+  sirs_max: 5.0
+
+text:
+  language: en
+  min_len: 10
+  max_len: 2000
+  stopword_list: []  # optional custom stopwords
+
+topics:
+  n_topics: 8
+  max_features: 5000
+  ngram_range: [1,2]
+
+sentiment:
+  method: vader  # vader or linear_svm (requires labels if svm)
+
+fuzzy:
+  clarity_terms: [low, medium, high]
+  fairness_terms: [low, medium, high]
+  sentiment_terms: [negative, neutral, positive]
+  output_terms: [low, medium, high]
