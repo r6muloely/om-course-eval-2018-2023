@@ -167,3 +167,8 @@ A versioned snapshot of this repository (including de-identified data) is archiv
 DOI: 10.5281/zenodo.17560637
 
 ---
+
+## 10) How to cite
+
+Ely, R. N. (2025). *Perceived Quality Without Grade Inflation: A Six-Year Operations Management Evaluation Across Delivery Modes Using Fuzzy Logic and Text Mining (2018–2023)* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.17560637
+
