@@ -1,0 +1,17 @@
+# Source code overview
+
+Entry points
+- run_pipeline.py — orchestrates the full build and saves figures/tables.
+
+Modules (src/)
+- utils.py — paths, I/O, plotting defaults
+- data_loading.py — CSV readers, schema checks
+- sirs_metrics.py — normalization and term means ((x − 1)/4 to map 1–5 → [0,1])
+- sentiment.py — VADER scoring and aggregation (compound −1..1; pos/neu/neg)
+- models/fuzzy_model.py — Mamdani FIS (triangular sets; centroid)
+- visualization/plots.py — figure builders
+- pipelines/build_all.py — assembles steps and copies key tables to paper_tables/
+
+Notes
+- Large-class alignment: sections 01–10 aggregated as SYYYY-largeclass/FYYYY-largeclass.
+- Reproducibility: outputs are deterministic under the pinned environment.
