@@ -3,6 +3,8 @@ Replication package for a longitudinal Operations Management evaluation using fu
 
 Deterministic Python pipeline reproducing all figures and tables from de-identified 2018–2023 SIRS, prompt-aware sentiment, and grade data.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17560637.svg)](https://doi.org/10.5281/zenodo.17560637)
+
 ---
 
 ## 1) Repository layout
@@ -162,12 +164,6 @@ Ely, R. N. (2025). Perceived Quality Without Grade Inflation: Replication Packag
 
 A versioned snapshot of this repository (including de-identified data) is archived on Zenodo:
 
-DOI: 10.5281/zenodo.xxxxxxx
+DOI: 10.5281/zenodo.17560637
 
 ---
-
-### Replace these placeholders before publishing
-
-- Replace 10.5281/zenodo.xxxxxxx with the DOI minted by Zenodo when you publish the release.
-- Ensure the environment name om-course-env matches the name in environment.yml. If different, update both places.
-- If you prefer not to support virtualenv, remove that small alternative block.
