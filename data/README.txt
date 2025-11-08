@@ -31,4 +31,5 @@ Data: CC BY 4.0 (or CC BY-NC 4.0 for non-commercial reuse)
 
 Citation
 --------
-Ely, R. N. (2025). Perceived Quality Without Grade Inflation: Replication Package (2018–2023). DOI: 10.5281/zenodo.xxxxxxx
+Ely, R. N. (2025). Perceived Quality Without Grade Inflation: Replication Package (2018–2023). DOI: 10.5281/zenodo.17560637
+
